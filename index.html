@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon-2.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"> -->
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -28,7 +30,8 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,9 +41,9 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
+                        <h1 class="mx-auto my-0 text-uppercase">Shijie Bian</h1>
                         <h2 class="text-white-80 mx-auto mt-2 mb-5">B.S. Mathematics of Computation @ UCLA</h2>
-                        <a class="btn btn-primary" href="assets/Curriculum_Vitae.pdf">Curriculum Vitae</a>
+                        <a class="btn btn-primary" href="assets/Curriculum_Vitae.pdf" target="_blank">Curriculum Vitae</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +56,7 @@
                         <h2 class="text-white mb-4">About Me</h2>
                         <p class="text-white-80">
                             Hello! My name is <b>Shijie (Brandon) Bian</b>, currently a Senior undergraduate student at UCLA, majoring in <b>Mathematics of Computation</b>, and minoring
-                            in <b>Statistics</b>. I am from Beijing, China.
+                            in <b>Statistics</b>.
                         </p>
                         <p class="text-white-80">
                             I am interested in research areas related to Machine Learning, Computer Vision, Knowledge Engineering, and their applications in Advanced Manufacturing Systems. 
@@ -78,7 +81,8 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/project_scw.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4 style="color: white;">The Smart Connected Worker</h4>
+                            <h4 style="color: white;"><b>The Smart Connected Worker</b></h4>
+                            <h5 style="color: rgb(165, 161, 161);">Project Manager, First Author</h4>
                             <h4 style="color: white;">____________</h4>
                             <p class="text-white-80 mb-0">An already-deployed real-time monitoring system of manufacturing workflow that 
                                 integrates state-of-the-art machine learning techniques with the workplace scenarios of advanced manufacturing systems.</p>
@@ -87,55 +91,82 @@
                         </div>
                     </div>
                 </div>
-            
-            </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+       
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/printer_gif.gif" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 style="color: white;"><b>Real-time 3D Printer State Recognition</b></h4>
+                            <h5 style="color: rgb(165, 161, 161);">Project Manager, First Author</h4>
+                            <h4 style="color: white;">____________</h4>
+                            <p class="text-white-80 mb-0">Use of Computer Vision and Artificial Intelligence (AI) models to
+                                replace discrete labor-intensive methods to monitor the machine state and predict the errors and risks for the advanced manufacturing.</p>
+                            <h4 style="color: white;">____________</h4>
+                            <h4 style="color: white;"><a href = "https://github.com/BrandonBian/SCW-object-detection" target="_blank">GitHub</a> | <a href = "https://doi.org/10.1007/978-3-030-77970-2_42" target="_blank">Publication</a></h4>
+                        </div>
                     </div>
-                </div>
+                </div>                
+
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/finger_detection_demo.gif" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 style="color: white;"><b>Real-time Human-Machine Interaction Monitoring</b></h4>
+                            <h5 style="color: rgb(165, 161, 161);">Project Manager</h4>
+                            <h4 style="color: white;">____________</h4>
+                            <p class="text-white-80 mb-0">A CRAFT-based finger detection and text recognition model for the real-time human-machine
+                                interaction control of a 3D printer.</p>
+                            <h4 style="color: white;">____________</h4>
+                            <h4 style="color: white;"><a href = "https://github.com/BrandonBian/SCW-finger-text-detection" target="_blank">GitHub</a></h4>
+                        </div>
+                    </div>
+                </div>     
             </div>
         </section>
+        <!-- Publications (previously also "projects")-->
+        <section class="publications-section bg-light" id="publications">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-white mb-4">Publications</h2>
+                
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-2 col-lg-2"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/iccs_icon.png" alt="..." /></div>
+                    <div class="col-xl-40 col-lg-10">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 style="color: white;"><b>"Real-time Object Detection for Smart Connected Worker in 3D printing"</b></h4>
+                            <h5 style="color: rgb(165, 161, 161);">International Conference on Computational Science (ICCS-2021)</h4>
+                            <h4 style="color: white;">____________</h4>
+                            </div>
+                        <div class="featured-text">
+                            <p class="text-white-80 mb-0" style="text-align:center/left/right;"><b>Shijie Bian</b>, Tiancheng Lin, Chen Li, Yongwei Fu, Mengrui Jiang, Tongzi Wu, Xiyi Hang, Bingbing Li*, “Real-time Object Detection for Smart Connected Worker in 3D printing”, Proceedings
+                                of the 2021 International Conference on Computational Science (ICCS-2021, Rank A Conference),
+                                Krakow, Poland, June 16-18, 2021. URL: <a href = "https://doi.org/10.1007/978-3-030-77970-2_42" target="_blank">https://doi.org/10.1007/978-3-030-77970-2_42</a>. Publication with an oral presentation of the full paper at the conference.
+                            </p>
+                        </div>                        
+                    </div>
+                </div>   
+
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-2 col-lg-2"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/jms_icon.jpg" alt="..." /></div>
+                    <div class="col-xl-40 col-lg-10">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 style="color: white;"><b>"Machine learning-based real-time monitoring system for smart connected worker to improve energy efficiency"</b></h4>
+                            <h5 style="color: rgb(165, 161, 161);">Journal of Manufacturing Systems</h4>
+                            <h4 style="color: white;">____________</h4>
+                            </div>
+                        <div class="featured-text">
+                            <p class="text-white-80 mb-0" style="text-align:center/left/right;"><b>Shijie Bian</b>, Chen Li, Yongwei Fu, Yutian Ren, Tongzi Wu, Guann-Pyng Li, Bingbing Li*. “Machine learning-based real-time monitoring system for smart connected worker to improve energy
+                                efficiency”. Journal of Manufacturing Systems (JCR Quartile Ranking: Q1, 2020 Impact Factor:
+                                8.633), 2021, Volume 61, Pages 66-76. URL: <a href = "https://doi.org/10.1016/j.jmsy.2021.08.009" target="_blank">https://doi.org/10.1016/j.jmsy.2021.08.009</a>.                                
+                            </p>
+                        </div>                        
+                    </div>
+                </div>                   
+
+            </div>
+        </section>
+
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -154,7 +185,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">brandonbian@g.ucla.edu</a></div>
+                                <div class="small text-black-50"><a href = "mailto: brandonbian@g.ucla.edu">brandonbian@g.ucla.edu</a></div>
                             </div>
                         </div>
                     </div>
@@ -169,15 +200,52 @@
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
+            </div>
+            <br>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fab fa-github text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">GitHub</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://github.com/BrandonBian" target="_blank">https://github.com/BrandonBian</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Website</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="brandonbian.github.io" target="_blank">brandonbian.github.io</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fab fa-linkedin-in text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">LinkedIn</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://www.linkedin.com/in/shijie-bian-ab7a9b196/" target="_blank">https://www.linkedin.com/in/shijie-bian-ab7a9b196/</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
+                </div> -->
             </div>
+        
         </section>
+
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-80"><div class="container px-4 px-lg-5">Copyright &copy; Brandon Bian 2021</div></footer>
+        <footer class="footer bg-black small text-center text-white-80"><div class="container px-4 px-lg-5">Copyright &copy; Shijie (Brandon) Bian 2021</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
